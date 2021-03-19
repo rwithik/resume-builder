@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "Lato", sans-serif !important;
+  background: #eee !important;
+}
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.content {
+  margin: 1rem 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+
+button {
+  margin: 0 0.5rem 0.5rem 0 !important;
+}
+
+.tag-list {
+  margin-bottom: 1rem;
+}
+
+.tag {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+button.close-skill {
+  all: unset;
+  padding: 0 5px;
+  color: white;
+}
+
+.card {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+.education-item + .education-item {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid grey;
+}

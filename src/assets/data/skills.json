@@ -1,0 +1,10 @@
+[
+  { "id": "React", "text": "React" },
+  { "id": "PHP", "text": "PHP" },
+  { "id": "Java", "text": "Java" },
+  { "id": "Javascript", "text": "Javascript" },
+  { "id": "CSS", "text": "CSS" },
+  { "id": "HTML", "text": "HTML" },
+  { "id": "Python", "text": "Python" },
+  { "id": "Django", "text": "Django" }
+]
